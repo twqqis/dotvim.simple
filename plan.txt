@@ -1,0 +1,17 @@
+DONE
+
+1) Started with blank .vim / .vimrc (moved everything to bakcup dir.
+
+2) Vundle README on github to install vundle by creating very simple .vimrc
+
+3) Added ctrlP and NERDTree using Vundle
+3.1) But I added no shortcuts for those, need to access both via : commands (eg, :CtrlP)
+
+
+
+
+NEXT:
+
+3.2) Look at spf13's .vimrc files (remember they have various; local, ...
+and look at the shortcuts and settings for those two plugins, and add those to my configuration
+	

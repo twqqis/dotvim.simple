@@ -34,13 +34,12 @@ filetype plugin indent on     " required!
 
 
 " Remap ; : so that you dont have to press shift
-" Test only, since I like to have ; available for 'next' when using f for
+" Testing autosource only, since I like to have ; available for 'next' when using f for
 " finding chars
+" Seems that when I add this option it autoload it and the map works, but when
+" I remove it, the mapping stays?
+" nnoremap ; :
 
-" This is testing the line for to see how many chars on this line it will
-" allow before going to the next lie.
-" How does it know that??
-"
 " Automatically have vim watch for vimrc* file changes and source them
 augroup myvimrc
 	au!

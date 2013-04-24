@@ -26,7 +26,7 @@ Bundle 'Raimondi/delimitMate'
 
 " Next: buffer explorer? CtrlPBuffer can do that already...True, but something
 " like minibufExplorer can make visible those buffers in a minimal view
-Bundle 'lgado/minibufexpl.vim'
+  Bundle 'fholgado/minibufexpl.vim'
 
 " -------------------------------------------- [ After your bundle list
 

@@ -60,12 +60,12 @@ Bundle 'Raimondi/delimitMate'
   Bundle 'fholgado/minibufexpl.vim'
 " Add keybinding to toggle miniBufExpl window {
   map <Leader>t :TMiniBufExplorer<cr>
+  " These dont seem to work, what am I missing:"
+  "let g:miniBufExplMapCTabSwitchBufs = 1
+  "let g:miniBufExplMapCTabSwitchWindows = 1
 " }
 
 
-"  let g:miniBufExplMapCTabSwitchBufs = 1
-
-  let g:miniBufExplMapCTabSwitchWindows = 1
 
 " -------------------------------------------- [ After your bundle list
 

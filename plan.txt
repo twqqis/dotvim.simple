@@ -14,4 +14,7 @@ NEXT:
 
 3.2) Look at spf13/janus/etc 's .vimrc files (remember they have various; local, ...
 and look at the shortcuts and settings for those two plugins, and add those to my configuration
+
+
+
 	

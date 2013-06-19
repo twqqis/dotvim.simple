@@ -98,11 +98,10 @@ Bundle 'Raimondi/delimitMate'
 	    "Bundle 'spf13/vim-colors'
 
 "----------------------------------------------------------------
-
+" https://github.com/tpope/vim-surround
 " Powerful script that can do all kinds of surrounding (adding, deleting,
 " changing, etc)  text with various brackets, braces, ticks, even <tags>
             Bundle 'tpope/vim-surround'
-
 
 "----------------------------------------------------------------
 " A way to make addons/scripts repeat better than with the built in vim .
@@ -116,7 +115,7 @@ Bundle 'Raimondi/delimitMate'
 " Ctrl-X / Ctrl-A
 " In visual mode it will do it for multiple dates over multple lines.
 " See more detail: http://github.com/tpope/vim-speeddating
-"	Bundle 'tpope/vim-speeddating'
+	Bundle 'tpope/vim-speeddating'
 
 
 "----------------------------------------------------------------

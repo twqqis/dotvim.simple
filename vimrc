@@ -65,6 +65,76 @@ Bundle 'Raimondi/delimitMate'
   "let g:miniBufExplMapCTabSwitchWindows = 1
 " }
 
+"----------------------------------------------------------------
+  " EVD: I will add this once I find something that need it"
+  " A few useful things and then looks like stuff that other scripts depends
+  " on 
+  " Bundle 'MarcWeber/vim-addon-mw-utils'
+
+"----------------------------------------------------------------
+  " EVD: I will add this once I find something that need it"
+  "  This library provides some utility functions. There isn't much need to 
+  "  install it unless another plugin requires you to do so.
+  " Bundle 'tomtom/tlib_vim'
+
+
+"----------------------------------------------------------------
+
+" https://github.com/mileszs/ack.vim
+" This plugin is a front for the Perl module App::Ack. Ack can be used as a
+" replacement for 99% of the uses of grep. This plugin will allow you to run ack
+" from vim, and shows the results in a split window.
+" 
+" The Official Version of this plugin is available at vim.org.
+
+" Bundle 'mileszs/ack.vim'
+
+
+"----------------------------------------------------------------
+
+" Theme:
+            Bundle 'altercation/vim-colors-solarized'
+            " Not sure if I need/want these?
+	    "Bundle 'spf13/vim-colors'
+
+"----------------------------------------------------------------
+
+" Powerful script that can do all kinds of surrounding (adding, deleting,
+" changing, etc)  text with various brackets, braces, ticks, even <tags>
+            Bundle 'tpope/vim-surround'
+
+
+"----------------------------------------------------------------
+" A way to make addons/scripts repeat better than with the built in vim .
+" (It only works with scripts that actually supports this plugin)
+            Bundle 'tpope/repeat'
+
+
+"----------------------------------------------------------------
+" Speed dating: ie, a function similar to vim's Ctrl-A to increment numbers,
+" but that would work on dates
+" Ctrl-X / Ctrl-A
+" In visual mode it will do it for multiple dates over multple lines.
+" See more detail: http://github.com/tpope/vim-speeddating
+"	Bundle 'tpope/vim-speeddating'
+
+
+"----------------------------------------------------------------
+" https://github.com/tpope/vim-abolish
+" Helps you search/replace words, but not just exact words, varaints of words
+" also.
+"	Bundle 'tpope/vim-abolish'
+
+
+"----------------------------------------------------------------
+" https://github.com/tpope/vim-unimpaired
+" Many shortcuts to various functions, see the website
+	Bundle 'tpope/vim-unimpaired'
+
+"----------------------------------------------------------------
+" https://github.com/tomtom/tcomment_vim
+" Un/Comment lines of code. works like toggle
+	Bundle 'tomtom/tcomment_vim'
 
 
 " -------------------------------------------- [ After your bundle list
